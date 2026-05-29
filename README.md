@@ -287,6 +287,8 @@ students/
 students/zhangsan/
 ```
 
+> 注意，git默认不会上传空文件夹。所以需要在该文件夹内创建一个文件，比如README.md 文件。才会上传成功。
+
 ### 6.3 建议的个人项目结构
 
 每位同学建议按照以下结构整理自己的项目：
@@ -376,6 +378,8 @@ Description 可以不填，也可以简单说明：
 ```text
 create README and project folder structure
 ```
+
+> 建议大家写中文，便于老师查看。
 
 ### 7.4 点击 Commit
 
@@ -487,6 +491,8 @@ revise logistic regression result
 submit final report
 ```
 
+> 建议大家写中文，便于老师查看。
+
 ---
 
 ## 9. 文件上传注意事项
@@ -541,6 +547,8 @@ __pycache__/
 ```
 
 如果不确定某个文件是否需要上传，可以先问老师。
+
+> 本项目已经创建了.gitignore 文件，其中包含的文件类型会被 Git 自动忽略，不会上传到 GitHub。请不要修改 .gitignore 文件。如果自己的文件没有被git识别且无法上传，可能是这个原因。理论上这里面包含的文件不应该被上传，如果有特殊需要，请联系老师。
 
 ---
 

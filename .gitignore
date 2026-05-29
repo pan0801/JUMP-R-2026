@@ -24,11 +24,7 @@
 *.bin
 *.dat
 *.csv
-*.json
-*.yaml
-*.yml
 *.sql
-*.md
 *.txt
 *.log
 *.tmp
